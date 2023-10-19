@@ -11,7 +11,7 @@ require("./config/db");
 require("./models/user");
 const authRoutes=require("./routes/authRoutes")
 app.use(authRoutes);
-
+ 
 
 app.get("/",(req, res) => {
     res.send("this is home page");
